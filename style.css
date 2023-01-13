@@ -1,0 +1,52 @@
+body {
+    background-color: #012458;
+}
+
+.nav {
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+} 
+
+li {
+    float: right;
+}
+
+li > a {
+    display: block;
+    text-decoration: none;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    color: #387503;
+}
+
+.logo1 {
+    width: 50px;   
+}
+
+.logo2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(50%, 50%);
+
+}
+
+.content    {
+    position: relative;
+    top: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-items: baseline;
+    align-items: end;
+    padding-right: 20em;
+}
